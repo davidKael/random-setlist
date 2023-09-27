@@ -5,7 +5,7 @@ import logo from "./imgs/2022_Causeries_Vit_utan_bakgrund.jpg.png";
 function App() {
   const [currentSetlist, setCurrentSetlist] = useState([]);
   const [allSongs, setAllSongs] = useState();
-  const [amount, setAmount] = useState(10);
+  const [amount, setAmount] = useState(13);
 
   function getAllSongs() {
     fetch("/data.json", {
