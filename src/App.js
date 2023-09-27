@@ -59,7 +59,7 @@ function App() {
     <div className="App">
       <div className="header">
         <img src={logo} className="logo-img" alt="band-logo" />
-        {renderedSetlist.length > 0 && <h1>Todays Setlist:</h1>}
+        {allSongs && renderedSetlist.length > 0 && <h1>Todays Setlist:</h1>}
       </div>
       {allSongs && currentSetlist.length > 0 && (
         <div className="set-list">
