@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/random-setlist/static/css/main.6084f535.css",
-    "main.js": "/random-setlist/static/js/main.50c6d0fd.js",
+    "main.css": "/random-setlist/static/css/main.ecbcfb3e.css",
+    "main.js": "/random-setlist/static/js/main.5a9d50c6.js",
     "static/media/2022_Causeries_Vit_utan_bakgrund.jpg.png": "/random-setlist/static/media/2022_Causeries_Vit_utan_bakgrund.jpg.be0ddd908dcd3ca5113c.png",
     "index.html": "/random-setlist/index.html",
-    "main.6084f535.css.map": "/random-setlist/static/css/main.6084f535.css.map",
-    "main.50c6d0fd.js.map": "/random-setlist/static/js/main.50c6d0fd.js.map"
+    "main.ecbcfb3e.css.map": "/random-setlist/static/css/main.ecbcfb3e.css.map",
+    "main.5a9d50c6.js.map": "/random-setlist/static/js/main.5a9d50c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.6084f535.css",
-    "static/js/main.50c6d0fd.js"
+    "static/css/main.ecbcfb3e.css",
+    "static/js/main.5a9d50c6.js"
   ]
 }
