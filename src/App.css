@@ -19,11 +19,21 @@
 }
 
 .random-btn{
-  margin: 20px;
-  height: 60px;
-  width: 180px;
   font-size: large;
+  cursor: pointer;
+  height: 100%;
+  width: 75%;
 }
+
+.random-main-control{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 65px;
+}
+
+
 .header{
   margin: 20px 20px 5px 20px;
   display: flex;
@@ -36,4 +46,35 @@
 .logo-img{
   width: 100%;
 
+}
+
+.songs-amount-input{
+
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 20%;
+}
+
+.songs-amount-input::content{
+  width: 100%;
+  height: 33.3%;
+}
+
+.songs-amount-input > input{
+  text-align: center;
+}
+
+.amount-btn{
+  cursor: pointer;
+}
+
+input[type="number"] {
+  -webkit-appearance: textfield;
+     -moz-appearance: textfield;
+          appearance: textfield;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
 }
